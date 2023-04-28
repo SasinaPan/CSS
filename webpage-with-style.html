@@ -5,19 +5,149 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>webpage With Style</title>
+    <title>webpage News</title>
     <style type="text/css">
-        p {
-            color: rgb(46, 46, 46);
-            font-size: 200%;
+        #topbar {
+
+            width: 1000px;
+            margin: 0 auto;
+            height: 40px;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        #logo {
+            margin-top: 8px;
+            width: 110px;
+            float: left;
+            margin-right: 8px;
+        }
+
+        .topbar-section {
+            float: left;
+            border-left: 1px #cccccc solid;
+            height: 100%;
+        }
+
+        .topbar-section1 {
+            float: left;
+            border-left: 1px #ffffff solid;
+            height: 100%;
+        }
+
+        #signin-image {
+            width: 25px;
+            margin: 11px 15px;
+            float: left;
+        }
+
+        #singin-text {
+            font-weight: bold;
+            font-size: 90%;
+            position: relative;
+            top: 15px;
+            margin-right: 10px;
+        }
+
+        #singin-text1 {
+            position: relative;
+            top: 4px;
+        }
+
+        .topbar-menu {
+            font-weight: bold;
+            font-size: 90%;
+            padding: 13px 15px 0 5px;
+            height: 27px;
+        }
+
+        .topbar-menu1 {
+            font-weight: bold;
+            font-size: 90%;
+            padding: 13px 0 0 0;
+            height: 27px;
+            margin-right: 5px;
+        }
+
+        #poith-select {
+            width: 25px;
+        }
+
+        #search-box {
+            background-color: #e4e4e4;
+            border: none;
+            font-size: 14px;
+            font-weight: bold;
+            padding: 13px;
+            margin: 5px 0 5px 5px;
+            float: left;
+        }
+
+        #magnifying-glass {
+            width: 25px;
+            position: relative;
+            right: 25px;
         }
     </style>
 
 </head>
 
 <body>
-    <p>CSS</p>
-    <h1>Cascading Style Sheets</h1>
+    <div id="topbar">
+
+        <img id="logo"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/1000px-BBC_Logo_2021.svg.png" />
+        <div id="signin-div" class="topbar-section">
+            <img id="signin-image"
+                src="https://www.freeiconspng.com/thumbs/profile-icon-png/am-a-19-year-old-multimedia-artist-student-from-manila--21.png">
+            <span id="singin-text">Sign in</span>
+        </div>
+        <div class="topbar-section topbar-menu">
+            <span id="singin-text1">Home</span>
+        </div>
+        <div class="topbar-section1 topbar-menu">
+            <span id="singin-text1">News</span>
+
+        </div>
+        <div class="topbar-section1 topbar-menu">
+            <span id="singin-text1">Sport</span>
+
+        </div>
+        <div class="topbar-section1 topbar-menu">
+            <span id="singin-text1">Reel</span>
+
+        </div>
+        <div class="topbar-section1 topbar-menu">
+            <span id="singin-text1">Worklife</span>
+
+        </div>
+        <div class="topbar-section1 topbar-menu">
+            <span id="singin-text1">Travel</span>
+
+        </div>
+        <div class="topbar-section1 topbar-menu">
+            <span id="singin-text1">Future</span>
+
+        </div>
+        <div class="topbar-section1 topbar-menu">
+            <span id="singin-text1">Culture</span>
+
+        </div>
+        <div class="topbar-section1 topbar-menu1">
+            <img id="poith-select" src="https://static.thenounproject.com/png/3523548-200.png">
+        </div>
+
+        <div class="topbar-section1">
+
+            <input id="search-box" type="text" placeholder="Search">
+
+        </div>
+
+    </div>
 </body>
 
 </html>
